@@ -1,0 +1,37 @@
+.zb-container {
+  display: flex;
+  direction: ltr;
+  padding: 15px 0; }
+  .zb-container.zb-fluid {
+    display: block;
+    flex-direction: column; }
+
+.zb-container .zb-center {
+  display: flex;
+  position: relative; }
+
+.zb-container .zb-center div {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px #000a;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold; }
+
+.zb-container .zb-center svg {
+  width: 154px;
+  height: 154px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: -1px; }
+
+.zb-container .zb-left,
+.zb-container .zb-right {
+  flex: 1; }

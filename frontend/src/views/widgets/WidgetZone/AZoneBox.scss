@@ -1,0 +1,48 @@
+.zb {
+	&-container {
+		display: flex;
+		// flex-direction: row;
+		// max-width: 1000px;
+		// margin: auto;
+		direction: ltr;
+		padding: 15px 0;
+		// min-width: 600px;
+
+		&.zb-fluid {
+			display: block;
+			flex-direction: column;
+		}
+	}
+	&-container &-center {
+		display: flex;
+		position: relative;
+	}
+	&-container &-center div {
+		margin: auto;
+		// background-color: green;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		// color: white;
+		box-shadow: 0 0 15px #000a;
+		text-align: center;
+		padding: 30px;
+		font-weight: bold;
+	}
+	&-container &-center svg {
+		width: 154px;
+		height: 154px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: -1px;
+	}
+	&-container &-left,
+	&-container &-right {
+		flex: 1;
+	}
+}

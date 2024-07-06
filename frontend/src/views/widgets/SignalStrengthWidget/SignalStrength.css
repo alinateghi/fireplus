@@ -1,0 +1,27 @@
+.ss-container {
+	background-image: url("./SignalStrength-300.png");
+	height: 90px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	position: relative;
+	margin: 1rem 0;
+}
+
+.ss-lever {
+	height: 100%;
+	margin: auto;
+	transform: rotate(-69deg);
+	transform-origin: 50% 100%;
+	transition: all ease-in-out 2s;
+}
+
+.ss-content {
+	direction: ltr;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 0);
+	z-index: 20000;
+}

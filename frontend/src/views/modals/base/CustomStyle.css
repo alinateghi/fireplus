@@ -1,0 +1,14 @@
+.full .modal-dialog {
+	height: 90vh !important;
+}
+
+.full .modal-content {
+	height: auto;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.full .modal-body {
+	height: 0;
+	overflow: auto;
+}

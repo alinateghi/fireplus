@@ -1,0 +1,50 @@
+// Here you can add other styles
+
+/* font-Vazir */
+@font-face {
+	font-family: Vazir;
+	src: url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-FD.eot");
+	src: url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-FD.eot?#iefix")
+			format("embedded-opentype"),
+		url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-FD.woff") format("woff"),
+		url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-FD.ttf") format("truetype");
+	font-weight: normal;
+}
+
+/* font-Vazir */
+@font-face {
+	font-family: Vazir;
+	src: url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-Bold-FD.eot");
+	src: url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-Bold-FD.eot?#iefix")
+			format("embedded-opentype"),
+		url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-Bold-FD.woff") format("woff"),
+		url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-Bold-FD.ttf") format("truetype");
+	font-weight: bold;
+}
+
+/* font-Vazir */
+@font-face {
+	font-family: Vazir;
+	src: url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-Light-FD.eot");
+	src: url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-Light-FD.eot?#iefix")
+			format("embedded-opentype"),
+		url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-Light-FD.woff") format("woff"),
+		url("./../assets/fonts/Vazir/Farsi-Digits/Vazir-Light-FD.ttf") format("truetype");
+	font-weight: lighter;
+}
+
+body {
+	font-family: Vazir;
+}
+
+.c-chartjs-tooltip .c-tooltip-body-item-color {
+	margin-right: 0;
+	margin-left: 0.875rem;
+}
+
+.c-chartjs-tooltip .c-tooltip-body-item-value {
+	padding-right: 1rem;
+	margin-right: auto;
+	padding-left: unset;
+	margin-left: unset;
+}
